@@ -1,14 +1,5 @@
-aref :phone:77636745,mobail:09198603288,
-namdar:mmmmmmmm:jjjjjjj:258523:
-mhraban:kkkkkkk:ssssss:123456:
-mhran:poiuyt:nbvcx:789456:
-baba: kdflaslffjla:456123:a;djafjj:
-arfan:ouoiuoou:bvbvbbvb:545454545:
-ahsan:ppppppp:45555555:mmmmjjjj:
-phone_book = {'arefjan':{'phone':'09198603245','Manzel':'02177636454','Mahalkar':'02177631800','Address':'thran '},
-'hamdolah':{'phone':'09124974349','Manzel':'02177636444','Mahalkar':'0233349000','Address':'thran '},
-'fareba':{'phone':'09194869221','Manzel':'02177636445','Mahalkar':'02177631807','Address':'thran '},
-'erfan':{'phone':'09199483963','Manzel':'02177636454','Mahalkar':'02177631801','Address':'thran '},
-'ehsan':{'phone':'09198719965','Manzel':'02177636445','Mahalkar':'02177631804','Address':'thran '},
-}
-papa:65456654:phone:01244555555:adres:sfdsaddddff:mail:puiuiuioiup
+alli :phone:77636745,mobail:09196853288,
+namdar:85698522:phone:258523:
+mhraban:235689:phone:123456:
+mhran:475869:phone:789456:
+
