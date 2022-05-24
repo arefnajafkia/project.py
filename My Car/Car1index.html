@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            table,th{
+                border: 1px solid black;
+            }
+        </style>
+    </head>
+    <body>
+        <table id="myTable">
+            <tr id="myTr">
+            </tr>
+        </table>
+        <p>Press the button to enter Aref Najaf Kia Blogfa.</p>
+        <button onclick="myFunction()">Login</button>
+        <script>
+            function myFunction() {
+                var x = document.createElement("TH");
+                var t = document.createTextNode("http://arefnajafkia.blogfa.com/");
+                x.appendChild(t);
+                document.getElementById("myTr").appendChild(x);
+            }
+        </script>
+        
+    </body>
+</html>
