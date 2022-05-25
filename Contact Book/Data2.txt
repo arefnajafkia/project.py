@@ -1,5 +1,13 @@
+<<<<<<< HEAD
 alli :phone:77636745,mobail:09196253288,
 namdar:25874136:phone:258523:
 mhraban:kkkkkkk:phone:123456:
 mhran:poiuyt:v:789456:
 siros:89798798:phone:258855225:
+=======
+alli :phone:77636745,mobail:09196853288,
+namdar:85698522:phone:258523:
+mhraban:235689:phone:123456:
+mhran:475869:phone:789456:
+
+>>>>>>> mybranch
