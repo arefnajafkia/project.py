@@ -1,4 +1,5 @@
 # tarekh tavalod and rooz 
+# محاسبه تاریخ تولد به روز
 Month = [ 'Farvardin','Ordibehesht', 'Khordad','Tir', 'Mordad', 'Shahrivar', 'Mehr', 'Aban', 'Azar', 'Day', 'Bahman', 'Esfand']
 
 Y = int(input('\nEnter year:'))

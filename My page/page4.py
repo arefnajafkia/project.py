@@ -1,5 +1,5 @@
 # Fibonachi
-
+# محاسبه ان تا فیبوناجی - که مقدار ان روازشمامیخواهد
 def  fib (N):
         #'Calculate Fibonachi Series'
        fib = [ 0, 1]

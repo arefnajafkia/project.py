@@ -1,5 +1,5 @@
 # mohasebh  mohit and masahat ba grftan meghdar tool and arze az carbar 
-
+# محاسبه مساحت ومحیط مستطیل باگرفتن طول وعرض ازکاربر
 def funtion (tool,arze):
       print ('The amount of length and width')
       mohit = 2*(tool+arze)
