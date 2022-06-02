@@ -22,7 +22,8 @@ root.geometry('1000x400')
 background = '#121212'
 root.config(bg= background)
 
-
+#This part of the program is wrong, correct it by hitting the key (Finding_btn)
+#این قسمت ازبرنامه غلط است درستش کنید بازدن کلید( فیندینگ ) 
 def Finding_btn():
     with open('D:\Visual Studio\MyProject\Contact Book\Data2.txt','r') as  f:
         for line in f:
