@@ -27,9 +27,8 @@ root.config(bg= background)
 def Finding_btn():
     with open('D:\Visual Studio\MyProject\Contact Book\Data2.txt','r') as  f:
         for line in f:
-            if name_entry.get() in line:
-                
-                listbox.insert(END, line)
+            name_entry = line
+            listbox.insert(END , line)
         
             
             name_entry.append(item)(0, END),
