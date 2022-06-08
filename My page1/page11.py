@@ -1,4 +1,4 @@
-
+#python3
 #Project description   شرح پروژه
 #botbase
 #This is a botbase project for nextcord Discord Python bots to reduce boilerplate.

@@ -1,4 +1,4 @@
-
+#python3
 #پيداکردن اسم از درون ليست
 # D:\python -film\Data2.txt آدرس فایل جدید روباید جایگذین کنید تاکارکندبجای 
 masir_file = 'D:\python -film\Data2.txt'
