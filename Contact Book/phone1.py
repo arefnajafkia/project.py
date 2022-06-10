@@ -23,20 +23,30 @@ background = '#121212'
 root.config(bg= background)
 
 #This part of the program is wrong, correct it by hitting the key (Finding_btn)
+#We want to know if the username is on our list
 #این قسمت ازبرنامه غلط است درستش کنید بازدن کلید( فیندینگ ) 
+#میخواهیم بفهمیم اسم کاربردرلیست ماهست یانه
 def Finding_btn():
-    with open('D:\Visual Studio\MyProject\Contact Book\Data2.txt','r') as  f:
-        for line in f:
-            name_entry = line
-            listbox.insert(END , line)
-        
-            
-            name_entry.append(item)(0, END),
-            phone_entry.append(item)(0, END),
-            Mobile_entry.append(item)(0, END),
-            Address_entry.append(item)(0, END),
-            Maill_entry.append(item)(0, END)           
-            
+    with open ('D:\python -film\Data2.txt','r')as f :
+        mohtaviat = f.read()
+        #for item in name_entry:
+        contact_get = name_entry.get 
+        i = contact_get
+        #x = mohtaviat.count(i)
+        if i in mohtaviat:
+            listbox.insert('بله هست'.i)
+            #listbox.insert (x,'تعداد')
+        else:
+            listbox.insert ('نه نيست',i)
+
+       
+    # listbox.insert(END,line)
+
+    name_entry.delete(0, END)
+    phone_entry.delete(0, END)
+    Mobile_entry.delete(0, END)
+    Address_entry.delete(0, END)
+    Maill_entry.delete(0, END)
 
 
 def add_contact() :
