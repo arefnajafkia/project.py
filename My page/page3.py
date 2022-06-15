@@ -1,4 +1,5 @@
-#python3
+# Hello World project 
+# python3
 # mohasebh  mohit and masahat ba grftan meghdar tool and arze az carbar 
 # محاسبه مساحت ومحیط مستطیل باگرفتن طول وعرض ازکاربر
 def funtion (tool,arze):

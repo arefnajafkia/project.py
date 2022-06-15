@@ -1,4 +1,5 @@
-#python3
+# Hello World project 
+# python3
 # حدس زدن شماره انتخابی توسط کامپیوتر
 
 

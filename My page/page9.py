@@ -1,4 +1,5 @@
-#python3
+# Hello World project 
+# python3
 # برنامه نوشته شده برای تنظیم درجه حرارت آبگرمکن
 
 Degree = int(input("  درجه رالطفا تنظیم کنید ؟\nPlease adjust the degree :"))

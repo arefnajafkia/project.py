@@ -1,4 +1,5 @@
-#python3
+# Hello World project 
+# python3
 #ماژول پایتون برای ردیابی و تشخیص
 # FIRST ֲ®  اشیاء بینایی کامپیوتری عمدتاً برای برنامه مسابقه رباتیک
 #python -m pip install ovl[cv]
