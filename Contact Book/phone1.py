@@ -27,7 +27,7 @@ root.config(bg= background)
 #این قسمت ازبرنامه غلط است درستش کنید بازدن کلید( فیندینگ ) 
 #میخواهیم بفهمیم اسم کاربردرلیست ماهست یانه
 def Finding_btn():
-    with open ('D:\python -film\Data2.txt','r')as f :
+    with open ('D:\Visual Studio\MyProject\Contact Book\Data2.txt','r')as f :
         mohtaviat = f.read()
         #for item in name_entry:
         contact_get = name_entry.get 
