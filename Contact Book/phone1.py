@@ -28,12 +28,12 @@ root.config(bg= background)
 #میخواهیم بفهمیم اسم کاربردرلیست ماهست یانه
 def Finding_btn():
     with open ('D:\Visual Studio\MyProject\Contact Book\Data2.txt','r')as f :
-        mohtaviat = f.read()
+        SpinBox = f.read()
         #for item in name_entry:
         contact_get = name_entry.get 
         i = contact_get
         #x = mohtaviat.count(i)
-        if i in mohtaviat:
+        if i in SpinBox:
             listbox.insert('بله هست'.i)
             #listbox.insert (x,'تعداد')
         else:
