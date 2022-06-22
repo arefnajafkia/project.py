@@ -1,15 +1,13 @@
-
+# Hello World project
+# python 3
 #sakhteh daftar phone writh aref
-from asyncore import read
+#barname phone ba save and delet and bacgrand meshge
+#  دفترچه تلفن کامل شخصی باپایتون 3
+
 from logging import root
-from msilib.schema import Error, ListBox
-from select import select
 from tkinter import messagebox
 from tkinter import *
-from unicodedata import name
 import webbrowser
-from importlib_metadata import entry_points
-from matplotlib.pyplot import get
 import pyperclip
 import random
 import os
@@ -22,32 +20,10 @@ root.geometry('1000x400')
 background = '#121212'
 root.config(bg= background)
 
-#This part of the program is wrong, correct it by hitting the key (Finding_btn)
-#We want to know if the username is on our list
-#این قسمت ازبرنامه غلط است درستش کنید بازدن کلید( فیندینگ ) 
-#میخواهیم بفهمیم اسم کاربردرلیست ماهست یانه
-def Finding_btn():
-    with open ('D:\Visual Studio\MyProject\Contact Book\Data2.txt','r')as f :
-        mohtaviat = f.read()
-        #for item in name_entry:
-        contact_get = name_entry.get 
-        i = contact_get
-        #x = mohtaviat.count(i)
-        if i in mohtaviat:
-            listbox.insert('بله هست'.i)
-            #listbox.insert (x,'تعداد')
-        else:
-            listbox.insert ('نه نيست',i)
 
-       
-    # listbox.insert(END,line)
-
-    name_entry.delete(0, END)
-    phone_entry.delete(0, END)
-    Mobile_entry.delete(0, END)
-    Address_entry.delete(0, END)
-    Maill_entry.delete(0, END)
-
+def open_dir():
+    webbrowser.open('D:\Visual Studio\MyProject\Contact Book\Data2.txt')
+    
 
 def add_contact() :
     contact_string = name_entry.get() + ': ' + phone_entry.get() + ': ' + Mobile_entry.get() + ': '  + Address_entry.get() + ': ' + Maill_entry.get() 
@@ -121,8 +97,8 @@ Maill_label. place(relx=0.1, rely=0.5, anchor='c')
 Maill_entry = Entry(root, bg='white', fg=background, width=40, borderwidth=4)
 Maill_entry. place(relx=0.3, rely=0.5, anchor='c')
 
-Finding_btn = Button(root, text='Finding contact',  bg=background, fg='white', borderwidth=3, padx=160,command=Finding_btn )
-Finding_btn. place(relx=0.25, rely=0.60, anchor='c')
+openSaved = Button(root, text='Open Saved File',  bg=background, fg='white', borderwidth=3, padx=160,command=open_dir )
+openSaved. place(relx=0.25, rely=0.60, anchor='c')
 
 add_btn = Button(root, text='Add Contact',  bg=background, fg='white', borderwidth=3, padx=68,command=add_contact )
 add_btn.place(relx=0.15, rely=0.70, anchor='c')
