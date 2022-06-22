@@ -1,6 +1,6 @@
 # Hello World project 
 # python3
-#دفترچه تلفن شخصي
+# دفترچه تلفن ساده شخصی باپایتون 3
 #Personal phonebook
 
 import os

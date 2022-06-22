@@ -56,7 +56,7 @@ def open_list():
             for line in f:
                 listbox.insert(END, line)
 def open_dir():
-        webbrowser.open('D:\Visual Studio\MyProject\Contact Book')  
+        webbrowser.open('D:\Visual Studio\MyProject\Contact Book\Data2.txt')  
 
 def copy_number():
         selected_contact = listbox.get(ANCHOR)
