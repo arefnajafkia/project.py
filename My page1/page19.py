@@ -86,12 +86,11 @@ while (True):
       if senseResult[index]=='&':
          if (senseResult[index-1]=='C'):
             #I found a crystal!
-            .
-            .
-            .
-         lastAmpPosition = index
+            
+            
+            lastAmpPosition = index
 
-      index = index+1
+            index = index+1
       
 #ر کریستالی درون رشته دریافتی بود، ما موقعیت آن را احتیاج داریم. تنها کاری که باید انجام شود پیدا کردن ',' درست قبل از کاراکتر 'C' است:
 
@@ -101,7 +100,7 @@ while (True):
          k=k+1
          j = i
                   
-      i = i+1
+         i = i+1
 
 # http://iwor.sourceforge.net/fa/Make-Simple-Bot(Python)-Persian.html#con مرجع دانلود
   
