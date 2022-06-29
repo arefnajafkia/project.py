@@ -8,8 +8,8 @@ import alpaca_trade_api as tradeapi
 import numpy as np
 import time
 
-'SEC_KEY ='bcO995J1nB2W7iWbzIkXv4foX0GKaQJAYT8pX1fN
-'BASE_URL = 'https://paper-api.alpaca.markets
+SEC_KEY ='bcO995J1nB2W7iWbzIkXv4foX0GKaQJAYT8pX1fN'
+BASE_URL = 'https://paper-api.alpaca.markets'
 api = tradeapi.REST(key_id= PUB_KEY, secret_key=SEC_KEY, base_url=BASE_URL)
 
 symb ="spy"
