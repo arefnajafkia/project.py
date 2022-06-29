@@ -13,10 +13,11 @@ from matplotlib.markers import MarkerStyle
 from numpy import busday_count
 import alpaca_trade_api as tradeapi
 
-SEC_KEY = " # Enter Your Secret Key Here"
-PUB_KEY = " # Enter Your Public Key Her"
 
-BASE_URL = 'https://paper-api.alpaca.markets' #  This is the base URL for paper trading
+SEC_KEY = "" # Enter Your Secret Key Here
+PUB_KEY = "" # Enter Your Public Key Her
+BASE_URL = "https://paper-api.alpaca.markets" #  This is the base URL for paper trading
+
 api = tradeapi.REST(key_id= PUB_KEY,secret_Key=SEC_KEY,base_url=BASE_URL) # For real trading, don’t enter a base_url
 
 
@@ -43,14 +44,16 @@ import alpaca_trade_api as tradeapi
 import numpy as np
 import time
 
-SEC_KEY= 'bcO995J1nB2W7iWbzIkXv4foX0GKaQJAYT8pX1fN'
-PUB_KEY= 'PKRQE96HW8BM6TO9V13V'
-BASE_URL= 'https://paper-api.alpaca.markets'
+SEC_KEY= "bcO995J1nB2W7iWbzIkXv4foX0GKaQJAYT8pX1fN"
+PUB_KEY= "PKRQE96HW8BM6TO9V13V"
+BASE_URL= "https://paper-api.alpaca.markets"
 
 api = tradeapi.REST(Key_id=PUB_KEY, secret_key=SEC_KEY, base_url=BASE_URL)
+
 symb= "SPY"
 
 symb= "SPY"
+
 print("")
 print("Checking Price")
 
