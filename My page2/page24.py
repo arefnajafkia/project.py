@@ -4,7 +4,7 @@
 # برنامه ای مفید برای معامله دربورس جهانی 
 #  MACD program for Metatrader 5 and 4
 # A useful program for the global stock market
-# فایل فوق رودر ام کیو ال 5 کپی کنید
+# فایل فوق رودر ام کیو ال 5 کپی کنید (mql5)
 
 
 /*
