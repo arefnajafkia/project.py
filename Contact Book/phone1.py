@@ -23,6 +23,7 @@ root.config(bg= background)
 
 def open_dir():
     webbrowser.open('D:\Visual Studio\MyProject\Contact Book\Data2.txt')
+    listbox = print ('Welcome to Hello World project')
     
 
 def add_contact() :
