@@ -9,15 +9,11 @@ print("من یک رباتم واسمم پایتون 9!")
 print("I am a robot,My name is python 9.")
 print()
 # تایم داده شده برای اجرای بعدی
-sleep(3)
-
+sleep(2)
 print("ساعت وتاریخ امروز\nTime and date")
 print("-"*20)
-
 #تایم داده شده برای اجرای بعدی
-sleep(3)
-
-
+sleep(2)
 #درج تاریخ میلادی
 import _datetime
 now = _datetime.datetime.today()
@@ -28,42 +24,44 @@ hour = str(now.hour)
 mi = str(now.minute)
 ss = str(now.second)
 print(mm + "/" + dd +"/" + yyyy +" " + hour + ":" + mi + ":" + mi + ":" + ss)
-
 #نوشتن تاریخ به ماه و سال و ساعت
 print("-"*20)
 
 import datetime as dt
 today_date = dt.date.today()
 print(today_date.strftime("the current Date is :\n \n%A %B %d,%Y"))
-
 print("-"*20)
 print()
 #تايم داده شده براي اجراي بعدي
-sleep(4)
-
-print("میتونم چندتاسوال ازشمابپرسم :\nHow many questions can I ask you :")
-print()
-#تایم داده شده برای اجرای بعدی
 sleep(3)
-
+# میپرسیم آیادوست داره ازش سوال کنیم
+choice = input("میتونم چندتا سوال ازشمابپرسم ؟اگربله است عدد1روبزن واگرنه 2 : :\nHow many questions can I ask you :")
+if choice == "2":
+    print("You are logged out\n شماازبرنامه خارج شدید")
+    input("And you will not continue\n ودیگردوست ندارید ادامه دهید")
+else:
+    print("ممنون که وقتتون روبه من دادید\nthank you for your time")
+    print()
+#تایم داده شده برای اجرای بعدی
+sleep(2)
 g = input("شمامردهستید یازن؟\n Wath is your gender,Mr.or Mrs ?")
 #تایم داده شده برای اجرای بعدی
-sleep(1)
+#sleep(1)
 name = input("نام ونام خانوادگس شما؟ \n please enter your name ? ")
 #تایم داده شده برای اجرای بعدی
-sleep(1)
+#sleep(1)
 city = input("متولد کدام شهرید؟ \n Born in which city {}.{} ?".format(g,name))
 #تایم داده شده برای اجرای بعدی
-sleep(1)
+#sleep(1)
 birth_year = input("متولد چه سالی هستید؟ \n birth year ?")
 #تایم داده شده برای اجرای بعدی
-sleep(1)
+#sleep(1)
 
 age = 1401 - int (birth_year)
 Y = birth_year
 M = int (input("متولد چه ماهی هستید؟ \n Enther Month ?"))
 #تایم داده شده برای اجرای بعدی
-sleep(1)
+#sleep(1)
 D = int(input("متولد جه روزی هستید؟ \n Enther Day ?"))
 S = city
 
@@ -87,25 +85,28 @@ print()
 print( "شمامتولد",D,Month_farse [m_index] ,"",Y)
 print("You were born " ,D, end[d_index] ,  " " , Month[m_index] ,  " " , Y )
 print()
-
-
 #تايم داده شده براي اجراي بعدي
 sleep(4)
 year_born =  int(now.year - age)
 print( "شمامتولدشدیددرسال میلادی",year_born)
 print("Awesome ! you were born in ", year_born)
-
 print("-"*30)
 print()
-
 #درآخرتایم بازی رامینویسد
 import  time
 start = time.time()
 
 #تايم داده شده براي اجراي بعدي
-sleep(6)
+sleep(5)
 #شروی بازی
-print("بیاباهم بازی اعداد کنیم؟ \n Let`s play numbers together {}.{}".format(g,name))
+choice = input("دوست داری بازی کنیم اگربله 1 روبزن واگرنه 2؟ \n Do you want to play, if yes, press 1,if not,press 2 {}.{}:".format(g,name))
+if choice == "2" :
+    print("You are logged out\n شماازبرنامه خارج شدید")
+    input("And you will not continue\n ودیگردوست ندارید ادامه دهید")
+    root.destory()
+else:
+    print("ممنون که دوباره وقتتون روبه من دادید\nThank you for your time again")
+
 print()
 #تايم داده شده براي اجراي بعدي
 sleep(3)
@@ -122,7 +123,6 @@ from math import floor
 
 #تايم داده شده براي اجراي بعدي
 sleep(3)
-
 def IsGuessTrue(Min, Max, Guess, NoGuess):
     if Min == Max:
         return
@@ -154,7 +154,6 @@ Max = 1000
 Guess = floor((Min + Max) / 2)
 NoGuess = 1
 IsGuessTrue(Min, Max, Guess, NoGuess)
-
 #تايم داده شده براي اجراي بعدي
 sleep(4)
 print()
